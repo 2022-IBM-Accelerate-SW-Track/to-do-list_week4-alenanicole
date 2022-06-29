@@ -14,7 +14,7 @@ const Todos = ({ todos, deleteTodo }) => {
     todos.map((todo) => {
       let color = "#ffffffff"
       if (new Date(todo.duedate) < new Date()){
-        color = 'red'
+        color = "rgb(235, 6, 202)"
       }
       console.log(color)
       return (
